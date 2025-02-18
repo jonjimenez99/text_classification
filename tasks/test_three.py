@@ -18,8 +18,3 @@ def test_member_access():
 	assert t.summary == 'buy milk'
 	assert t.owner == 'brian'
 	assert (t.done, t.id) == (False, None)
-
-def test_sum():
-	"""Check .field functionality of namedtuple."""
-	suma = 1 + 1
-	assert suma == 3
