@@ -1,15 +1,17 @@
 [tool.poetry]
-name = "cv-recommendations"
+name = "test"
 version = "0.1.0"
 description = ""
-authors = ["Andres Jimenez: <andrescover.99@gmail.com>"]
+authors = ["Jonny"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4.0"
-pytest = "^8.3.4"
+python = "^3.9"
+transformers = "^4.46.2"
 pandas = "^2.2.3"
-numpy = "<2.0"
+numpy = "^1.1.3"
+torch = "2.2.2"
+accelerate = "^1.1.1"
 
 
 [build-system]
